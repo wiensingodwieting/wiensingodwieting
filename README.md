@@ -1,108 +1,36 @@
-<div align="center">
-
 # wiensingodwieting
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1200&color=F2F2F2&center=true&vCenter=true&width=720&lines=Rust+application+developer;building+apps+%E2%86%92+breaking+them+%E2%86%92+fixing+them;learning+one+commit+at+a+time" alt="Typing SVG" />
-</a>
-
-`Rust` · `Cargo` · `Git` · `Linux / Windows`
-
-</div>
-
----
-
-## 01 / whoami
-
-```text
-name      wiensingodwieting
-focus     Rust applications
-status    building
-mode      learn → build → break → fix
+```
+systems · emulators · native tools
+C · C++ · Rust · Python · Java
 ```
 
-I build applications with **Rust** and learn by turning ideas into working software.
-
-No huge portfolio yet. I'm building it one project — and one commit — at a time.
+Low-level and systems software developer. I build emulators, native desktop tools, and infrastructure utilities from scratch.
 
 ---
 
-## 02 / system map
+### Projects
 
-```mermaid
-flowchart LR
-    ME["wiensingodwieting"]
-    R["Rust"]
-    C["Cargo"]
-    G["Git / GitHub"]
-    A["Applications"]
-    T["Tools"]
-    X["Experiments"]
+- [**BeamForge**](https://github.com/wiensingodwieting/beamforge)  
+  Fast BeamMP server mod & profile manager. Uses symlink deployment for zero-copy mod switching with hardware-accelerated GUI.  
+  `Rust` `Slint UI` `Linux / Wayland`
 
-    ME --> R
-    R --> C
-    ME --> G
-    R --> A
-    R --> T
-    R --> X
-```
+- [**chip8-emulator**](https://github.com/wiensingodwieting/chip8-emulator)  
+  Cycle-accurate CHIP-8 virtual machine and interpreter written from scratch.  
+  `C++20` `SDL2`
 
 ---
 
-## 03 / currently
+### Tech Stack
 
-```rust
-#[derive(Debug)]
-struct CurrentState {
-    language: &'static str,
-    focus: &'static str,
-    status: &'static str,
-}
-
-fn main() {
-    let me = CurrentState {
-        language: "Rust",
-        focus: "applications",
-        status: "compiling...",
-    };
-
-    println!("{me:#?}");
-}
-```
-
-- building applications in Rust
-- exploring the Rust ecosystem
-- learning better software architecture
-- turning random ideas into working software
+- **Systems & Low-Level:** C, C++, Rust
+- **General Purpose:** Python, Java
+- **Environment:** Linux (NixOS / Wayland), Git, Bash, Make, Cargo
 
 ---
 
-## 04 / projects
+### Activity
 
-```text
-01  current build      ███████░░░  in progress
-02  next idea          ░░░░░░░░░░  queued
-03  ???                ░░░░░░░░░░  waiting for a bad idea
-```
-
-Real projects will replace these lines as soon as they're ready.
-
----
-
-## 05 / activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=wiensingodwieting&show_icons=true&hide_border=true&bg_color=00000000&title_color=F2F2F2&text_color=B8B8B8&icon_color=DEA584" alt="GitHub stats" />
-
-</div>
-
----
-
-<div align="center">
-
-### `cargo run`
-
-<sub>stay curious · keep building</sub>
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wiensingodwieting&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
+</p>
